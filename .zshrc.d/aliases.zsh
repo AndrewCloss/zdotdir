@@ -9,9 +9,11 @@ alias l=ls
 alias g=git
 
 # git
+alias ga=git add .
 alias gs=git status
 alias gc=git checkout
 alias gcb=git checkout -b
+alias gca=git commit --amend
 
 # mask built-ins with better defaults
 alias vi=vim
