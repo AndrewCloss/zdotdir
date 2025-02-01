@@ -8,13 +8,18 @@ alias _=sudo
 alias l=ls
 alias g=git
 
+# git
+alias gs=git status
+alias gc=git checkout
+alias gcb=git checkout -b
+
 # mask built-ins with better defaults
 alias vi=vim
 
 # more ways to ls
-alias ll='ls -lh'
-alias la='ls -lAh'
-alias ldot='ls -ld .*'
+alias ls="exa -l --color=always --icons --group-directories-first"
+alias la="exa -lah --color=always --icons --group-directories-first"
+alias ldot='exa -ld --color=always --icons --group-directories-first .*'
 
 # fix common typos
 alias quit='exit'
